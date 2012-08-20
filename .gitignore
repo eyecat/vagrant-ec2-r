@@ -1,0 +1,4 @@
+*/.putty
+*/.vagrant
+a_vagrant_machine/.cookbooks_path.json
+a_vagrant_machine/dna.json

@@ -1,0 +1,6 @@
+maintainer       ""
+maintainer_email ""
+license          "Apache 2.0"
+description      "Installs juju"
+version          "0.1"
+supports         "ubuntu"
