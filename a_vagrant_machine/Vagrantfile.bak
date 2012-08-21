@@ -4,7 +4,6 @@ Vagrant::Config.run do |config|
     vm.memory_size = 1024
   end
   config.vm.forward_port 8787, 8787
-  config.vm.forward_port 22, 2200
 
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = ['cookbooks', 'more_cookbooks']
